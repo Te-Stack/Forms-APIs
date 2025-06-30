@@ -1,0 +1,12 @@
+name = "contact-form-api"
+main = "src/index.js"
+compatibility_date = "2025-06-26"
+
+# Optional: Custom domain
+# routes = [
+#   { pattern = "api.yourdomain.com/*", zone_name = "yourdomain.com" }
+# ]
+
+# Environment variables (if needed)
+# [vars]
+# ENVIRONMENT = "production"
