@@ -14,18 +14,18 @@ const App = () => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value
-    });
+    }); 
   };
 
   const getApiUrl = () => {
     if (apiType === 'cloudflare') {
-      return 'https://your-api.your-subdomain.workers.dev/contact';
+      return 'https://contact-form-api.ukumakubequincy.workers.dev';
     } else {
       // Vercel API route - will be at your-site.vercel.app/api/contact
       return '/api/contact';
     }
   };
-
+  
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsLoading(true);
